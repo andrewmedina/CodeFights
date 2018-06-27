@@ -5,10 +5,10 @@ func almostIncreasingSequence(sequence []int) bool {
             tail = i;
         } else {
             if tail == 0 || sequence[i] > sequence[tail - 1] {
-				        tail = i;
-			      }
-			      screwups++;
-		    }
-	  }
-    return screwups == 1;
+				tail = i;
+			}
+			screwups++;
+		}
+	}
+	return screwups == 1;
 }
