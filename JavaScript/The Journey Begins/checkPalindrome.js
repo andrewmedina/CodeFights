@@ -1,0 +1,1 @@
+const checkPalindrome = inputString => inputString.split("").reverse().join("") === inputString;
